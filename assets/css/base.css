@@ -2,6 +2,7 @@
     --background:  radial-gradient(#4bd677, #1a9641);
     --cor-titulo: #EEB62C;
     --cor-grades: #EEB62C;
+    --tamanho-grade: 12px;
     --cor-x: linear-gradient(#F1911D, #F17826);
     --cor-o: linear-gradient(#E83E40, #DC1919);
     --cor-bg-botao1: linear-gradient(#ed9f3f 50%, #F17826 50%); 
@@ -30,11 +31,35 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 85vh;
     justify-content: center;
     width: 100vw;
 }
 
 .esconder {
     display: none;
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --tamanho-grade: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        height: 95vh;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    main {
+        height: 90vh;
+    }
 }

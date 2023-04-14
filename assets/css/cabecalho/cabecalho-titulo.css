@@ -18,3 +18,21 @@
         transform: scale(1);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho__titulo {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho__titulo {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .cabecalho__titulo {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,30 @@
+.grades {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 50%;
+    max-width: 600px;
+}
+@media screen and (max-width: 992px) {
+    .grades {
+        width: 80%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grades {
+        width: 70%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grades {
+        width: 85%;
+    }
+}
+

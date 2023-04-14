@@ -21,3 +21,15 @@
 .rodape a:hover {
     color: var(--cor-link-hover);
 }
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rodape {
+        font-size: 1rem;
+    }
+}

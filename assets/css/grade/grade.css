@@ -1,0 +1,18 @@
+.grade {
+    box-sizing: border-box;
+    height: 33.33%;
+    width: 33.33%;
+}
+
+.grade1, .grade2, .grade4, .grade5 {
+    border-bottom: var(--tamanho-grade) solid var(--cor-grades);
+    border-right: var(--tamanho-grade) solid var(--cor-grades);
+}
+
+.grade3, .grade6 {
+    border-bottom: var(--tamanho-grade) solid var(--cor-grades);
+}
+
+.grade7, .grade8 {
+    border-right: var(--tamanho-grade) solid var(--cor-grades);
+}
