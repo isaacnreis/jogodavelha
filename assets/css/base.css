@@ -1,0 +1,40 @@
+:root {
+    --background:  radial-gradient(#4bd677, #1a9641);
+    --cor-titulo: #EEB62C;
+    --cor-grades: #EEB62C;
+    --cor-x: linear-gradient(#F1911D, #F17826);
+    --cor-o: linear-gradient(#E83E40, #DC1919);
+    --cor-bg-botao1: linear-gradient(#ed9f3f 50%, #F17826 50%); 
+    --cor-bg-botao2: linear-gradient(#F17826 50%, #ed9f3f 50%); 
+    --cor-ft-botao2: #DC1919;
+    --cor-ft-botao1: #e4e4e4;
+    --bg-rodape: linear-gradient(#4bd67700, #137132);
+    --cor-link: #b7a963;
+    --cor-link-hover: #983fbe;
+    --font: 'Lilita One', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--background);
+    box-sizing: border-box;
+    font-family: var(--font);
+    text-align: center;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.esconder {
+    display: none;
+}

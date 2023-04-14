@@ -1,0 +1,23 @@
+.rodape {
+    align-items: center;
+    background: var(--bg-rodape);
+    color: var(--cor-titulo);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    height: 10vh;
+    justify-content: center;
+}
+
+.rodape p {
+    margin-bottom: 1rem;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: var(--cor-link);
+}
+
+.rodape a:hover {
+    color: var(--cor-link-hover);
+}

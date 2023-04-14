@@ -1,0 +1,20 @@
+.cabecalho__titulo {
+    animation: tamanho 6s ease-in-out infinite;
+    transform: scale(1);
+    color: var(--cor-titulo);
+    font-size: 6rem;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #f0f0f0;
+}
+
+@keyframes tamanho {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,41 @@
+.menu__botao{
+    background: var(--cor-bg-botao2);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-ft-botao2);
+    font-family: var(--font);
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.menu__botao:hover{
+    animation: interacao 3s ease-in-out infinite;
+}
+
+.menu__botao--1{
+    background: var(--cor-bg-botao1);
+    color: var(--cor-ft-botao1);
+    margin-right: 5rem;
+}
+
+@keyframes interacao {
+    0% {
+        transform: rotateZ(0) scale(1);
+    }
+
+    20% {
+        transform: rotateZ(-10deg) scale(1.1);
+    }
+
+    50% {
+        transform: rotateZ(0) scale(1.2);
+    }
+
+    80% {
+        transform: rotateZ(10deg) scale(1.1);
+    }
+
+    100% {
+        transform: rotateZ(0) scale(1);
+    }
+}
