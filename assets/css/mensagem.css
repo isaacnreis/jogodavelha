@@ -1,0 +1,16 @@
+.mensagem {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 300px;
+    width: 80%;
+    font-size: 5rem;
+    background-color: rgba(0, 0, 0, 0.583);
+    color: #983fbe;
+    padding: 1.1rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.744);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #f0f0f0;
+}

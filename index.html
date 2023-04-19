@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Velha</title>
+
+    <title>Jogo Da Velha</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,46 +18,58 @@
     <link rel="stylesheet" href="./assets/css/menu/menu.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-botoes.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-botao.css">
-    <link rel="stylesheet" href="./assets/css/grade/grade.css">
-    <link rel="stylesheet" href="./assets/css/grade/grades.css">
+    <link rel="stylesheet" href="./assets/css/grades/grade.css">
+    <link rel="stylesheet" href="./assets/css/grades/grades.css">
     <link rel="stylesheet" href="./assets/css/placar/placar.css">
     <link rel="stylesheet" href="./assets/css/placar/placar-titulo.css">
     <link rel="stylesheet" href="./assets/css/placar/placar-x.css">
     <link rel="stylesheet" href="./assets/css/placar/placar-o.css">
-
+    <link rel="stylesheet" href="./assets/css/voltar/voltar.css">
+    <link rel="stylesheet" href="./assets/css/voltar/voltar-botao.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
-
+    <link rel="stylesheet" href="./assets/css/mensagem.css">
+    <link rel="stylesheet" href="./assets/css/esconder.css">
 </head>
 <body>
-    <header class="cabecalho"><h1 class="cabecalho__titulo">Jogo da Velha</h1></header>
+    <header class="cabecalho"><h1 class="cabecalho__titulo">Jogo Da Velha</h1></header>
     <main>
         <section class="menu">
             <div class="menu__botoes">
-                <button class="menu__botao menu__botao--1">2 Jogadores</button>
-                <button class="menu__botao menu__botao--2">Contra Computador</button>
+                <button id="2p" class="menu__botao menu__botao--1">2 Jogadores</button>
+                <button id="pc" class="menu__botao menu__botao--2">Contra Computador</button>
             </div>
         </section>
-        <section class="grades">
-            <div class="grade grade1"></div>
-            <div class="grade grade2"></div>
-            <div class="grade grade3"></div>
-            <div class="grade grade4"></div>
-            <div class="grade grade5"></div>
-            <div class="grade grade6"></div>
-            <div class="grade grade7"></div>
-            <div class="grade grade8"></div>
-            <div class="grade grade9"></div>
+        <section class="grades esconder">
+            <div class="grade grade1"><div class="sub"></div></div>
+            <div class="grade grade2"><div class="sub"></div></div>
+            <div class="grade grade3"><div class="sub"></div></div>
+            <div class="grade grade4"><div class="sub"></div></div>
+            <div class="grade grade5"><div class="sub"></div></div>
+            <div class="grade grade6"><div class="sub"></div></div>
+            <div class="grade grade7"><div class="sub"></div></div>
+            <div class="grade grade8"><div class="sub"></div></div>
+            <div class="grade grade9"><div class="sub"></div></div>
         </section>
-        <section class="placar">
+        <section class="placar esconder">
             <h2 class="placar__titulo">Placar:</h2>
-            <h3 class="placar__x">X:</h3>
-            <h3 class="placar__o">O:</h3>
+            <h3 class="placar__x">X: <span class="placar__x--cont">0</span></h3>
+            <h3 class="placar__o">O: <span class="placar__o--cont">0</span></h3>
+        </section>
+        <section class="voltar esconder">
+            <a href="./index.html"><button class="voltar__botao">Voltar</button></a>
+        </section>
+        <section class="esconder">
+            <div class="x">X</div>
+            <div class="o">O</div>
+        </section>
+        <section class="mensagem esconder">
+            <p>A</p>
         </section>
     </main>
     <footer class="rodape">
         <p>&#169; Desenvolvido por Isaac N. Reis</p>
         <a href="https://isaacnreis.github.io/portfolio/" target="_blank">Portfolio</a>
     </footer>
-    <script src=""></script>
+    <script type="module" src="./assets/js/app.js"></script>
 </body>
 </html>

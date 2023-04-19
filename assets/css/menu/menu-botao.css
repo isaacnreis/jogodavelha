@@ -2,10 +2,13 @@
     background: var(--cor-bg-botao2);
     border: none;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
     color: var(--cor-ft-botao2);
+    cursor: pointer;
     font-family: var(--font);
     font-size: 1.8rem;
     padding: 1rem;
+    text-shadow: 2px 2px 5px rgba(64, 64, 64, 0.556);
 }
 
 .menu__botao:hover{

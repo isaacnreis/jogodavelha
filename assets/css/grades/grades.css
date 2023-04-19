@@ -2,28 +2,32 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    font-size: 7rem;
     height: 60%;
     justify-content: center;
     margin-bottom: 2rem;
     width: 50%;
     max-width: 600px;
 }
+
 @media screen and (max-width: 992px) {
     .grades {
-        width: 80%;
         height: 50%;
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .grades {
-        width: 70%;
+        font-size: 6rem;
         height: 50%;
+        width: 70%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .grades {
+        font-size: 5rem;
         width: 85%;
     }
 }

@@ -1,0 +1,26 @@
+.voltar__botao {
+    background: linear-gradient(#be78dc 50%, #983fbe 50%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    cursor: pointer;
+    color: #f3f3f3;
+    font-family: var(--font);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    text-shadow: 2px 2px 5px rgba(64, 64, 64, 0.556);
+}
+
+@media screen and (max-width: 768px) {
+    .voltar__botao {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .voltar__botao {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}

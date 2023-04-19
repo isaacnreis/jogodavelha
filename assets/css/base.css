@@ -3,8 +3,8 @@
     --cor-titulo: #EEB62C;
     --cor-grades: #EEB62C;
     --tamanho-grade: 12px;
-    --cor-x: linear-gradient(#F1911D, #F17826);
-    --cor-o: linear-gradient(#E83E40, #DC1919);
+    --cor-x: linear-gradient(180deg, #F1911D, #F17826);
+    --cor-o: linear-gradient(180deg, #E83E40, #DC1919);
     --cor-bg-botao1: linear-gradient(#ed9f3f 50%, #F17826 50%); 
     --cor-bg-botao2: linear-gradient(#F17826 50%, #ed9f3f 50%); 
     --cor-ft-botao2: #DC1919;
@@ -34,10 +34,6 @@ main {
     height: 85vh;
     justify-content: center;
     width: 100vw;
-}
-
-.esconder {
-    display: none;
 }
 
 @media screen and (max-width: 992px) {

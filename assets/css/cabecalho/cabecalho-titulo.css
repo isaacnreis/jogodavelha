@@ -3,6 +3,7 @@
     transform: scale(1);
     color: var(--cor-titulo);
     font-size: 6rem;
+    text-shadow: 5px 5px 5px black;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #f0f0f0;
 }

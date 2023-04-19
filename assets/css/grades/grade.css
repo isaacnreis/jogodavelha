@@ -1,0 +1,44 @@
+.grade {
+    box-sizing: border-box;
+    height: 33.33%;
+    width: 33.33%;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #f0f0f0;
+}
+
+.grade1, .grade2, .grade4, .grade5 {
+    border-bottom: var(--tamanho-grade) solid var(--cor-grades);
+    border-right: var(--tamanho-grade) solid var(--cor-grades);
+}
+
+.grade3, .grade6 {
+    border-bottom: var(--tamanho-grade) solid var(--cor-grades);
+}
+
+.grade7, .grade8 {
+    border-right: var(--tamanho-grade) solid var(--cor-grades);
+}
+
+.x {
+    background-color: #F1911D;
+    background-image: var(--cor-x);
+    background-size: 100%;
+    background-clip: text;
+    cursor: context-menu;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.o {
+    background-color: #F1911D;
+    background-image: var(--cor-o);
+    background-size: 100%;
+    background-clip: text;
+    cursor: context-menu;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
