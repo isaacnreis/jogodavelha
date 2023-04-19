@@ -55,7 +55,16 @@ main {
 }
 
 @media screen and (max-height: 600px) {
+    :root {
+        --tamanho-grade: 6px;
+    }
     main {
         height: 90vh;
+    }
+}
+
+@media screen and (max-height: 768px) {
+    :root {
+        --tamanho-grade: 8px;
     }
 }

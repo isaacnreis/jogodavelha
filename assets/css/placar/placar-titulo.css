@@ -18,6 +18,12 @@
     }
 }
 
+@media screen and (max-height: 768px) {
+    .placar__titulo {
+        font-size: 2.2rem;
+    }
+}
+
 @media screen and (max-height: 600px) {
     .placar__titulo {
         font-size: 2rem;

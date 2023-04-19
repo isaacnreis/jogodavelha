@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 992px) {
     .grades {
+        font-size: 6rem;
         height: 50%;
         width: 80%;
     }
@@ -19,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
     .grades {
-        font-size: 6rem;
+        font-size: 5.5rem;
         height: 50%;
         width: 70%;
     }
@@ -27,8 +28,24 @@
 
 @media screen and (max-width: 480px) {
     .grades {
-        font-size: 5rem;
+        font-size: 4.5rem;
         width: 85%;
+    }
+}
+
+@media screen and (max-height: 768px) {
+    .grades {
+        font-size: 5.4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        height: 50%;
+        width: 65%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .grades {
+        font-size: 4rem;
     }
 }
 

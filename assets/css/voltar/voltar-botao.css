@@ -24,3 +24,18 @@
         padding: 0.5rem;
     }
 }
+
+@media screen and (max-height: 768px) {
+    .voltar__botao {
+        margin-top: 0.8rem;
+        padding: 0.6rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .voltar__botao {
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        padding: 0.5rem;
+    }
+}
